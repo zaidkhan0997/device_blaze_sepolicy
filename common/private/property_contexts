@@ -1,3 +1,8 @@
+# Aux camera
+vendor.camera.aux.packageexcludelist   u:object_r:exported_system_prop:s0
+vendor.camera.aux.packagelist          u:object_r:exported_system_prop:s0
+
+# Radio
 ro.telephony.use_old_mnc_mcc_format    u:object_r:telephony_config_prop:s0
 
 # Aux camera blacklist prop readable to everything
@@ -5,6 +10,3 @@ vendor.camera.aux.packageblacklist     u:object_r:exported_default_prop:s0
 
 # HAL1 prop readable to everything
 vendor.camera.hal1.packagelist         u:object_r:exported_default_prop:s0
-
-# Aux camera whitelist prop readable to everything
-vendor.camera.aux.packagelist          u:object_r:exported_default_prop:s0
